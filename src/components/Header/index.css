@@ -1,0 +1,139 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202020;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1140px;
+  padding: 15px 0px 25px 0px;
+}
+
+.nav-bar-mobile-logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-logo-container {
+    display: none;
+  }
+}
+
+.nav-bar-large-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1140px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar-large-container {
+    display: none;
+  }
+}
+
+.website-logo {
+  width: 90px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 125px;
+  }
+}
+
+.nav-bar-mobile-icons-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-item-mobile-link {
+  color: #ffffff;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.nav-mble-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  color: #ffffff;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mble-btn {
+    display: none;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.nav-menu-item {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+}
+
+.logout-desktop-button {
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: ponter;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .logout-desktop-button {
+    display: none;
+  }
+}
+
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #ffffff;
+}

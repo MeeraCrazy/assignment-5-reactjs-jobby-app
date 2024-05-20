@@ -1,0 +1,138 @@
+.job-link {
+  text-decoration: none;
+}
+.job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.logo-title-location-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
+.rating-icon {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.rating-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.logo-package-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-employee-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.location-icon {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.location-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.employee-type-container {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.brief-case-icon {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.employee-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.package-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.line {
+  color: #7e858e;
+  width: 100%;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.description-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 1.8;
+}
